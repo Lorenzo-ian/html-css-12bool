@@ -15,6 +15,21 @@
     clear: both;
 }
 
+/* NESTING CONTAINER */
+
+.specialcontainer {
+    width: 50%;
+    float: left;
+    margin: 0;
+
+}
+
+.specialcontainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* REGOLE DI COLONNA */
 
 [class*="col-"] {
